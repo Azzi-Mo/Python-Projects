@@ -2,7 +2,7 @@ import requests
 
 # Account details 
 APP_ID = 'EMAIL' 
-APP_SECRET = 'PASSWORD' 
+APP_SECRET = 'PASSWORD' w
 
 # Get short-lived access token 
 url = "https://graph.facebook.com/oauth/access_token?grant_type=client_credentials&client_id={APP_ID}&client_secret={APP_SECRET}".format(APP_ID, APP_SECRET) 
