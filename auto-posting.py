@@ -59,14 +59,14 @@ emailInputField = driver.find_element(By.XPATH,  "//input[@name='email']")
 
 """ {1} Your Email goes down below!"""
 
-emailInputField.send_keys("infalx1@hotmail.com")
+emailInputField.send_keys("email")
 print('email is done')
 
 
 passwordInputField = driver.find_element(By.XPATH,  "//input[@name='pass']")
 
 """{2} Your Password right here"""
-passwordInputField.send_keys('@@@xxx@@@')
+passwordInputField.send_keys('password')
 print('pass is done')
 
 
@@ -80,8 +80,8 @@ time.sleep(5)
 you must enter the groups URLs as such:
 listOfGroups = ["https://linkone.com","https://linktwo.com","https://dontforgetthequotes.com"]
 """
-listOfGroups = [ "https://web.facebook.com/groups/600826819950470/?hoisted_section_header_type=recently_seen&multi_permalinks=5972402419459523",
-                 "https://web.facebook.com/groups/cpamarketingmorocco" ]
+listOfGroups = [ "https://web.facebook.com/groups/links",
+                 "https://web.facebook.com/groups/links" ]
 
 for group in listOfGroups:
     driver.get(group)
